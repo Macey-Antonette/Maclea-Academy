@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with device width, initial-sacle=1.0">
+        <title>Maclea Academy</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html" class="logo">Maclea <span>Academy</span></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close onclick="hideMenu()""></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">HISTORY</a></li>
+                        <li><a href="Course.html">CAMPUS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-times" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>Welcome To Maclea Academy!</h1>
+                <p>An Academy for All! Everyone here is Welcome, whether human or not!</p>
+                </p>
+                <a href="contact.html" class="hero-btn">Enroll Now!</a>
+            </div>
+
+        </section>
+
+        <!--course-->
+
+        <section class="course">
+            <h1>Our Alumni</h1>
+            <p>Meet some of our few Alumni's! <br>
+            </p>
+        
+
+        <div class="row">
+            <div class="course-col">
+                <div class="testimonial-col">
+                <img src="images/Emerald Hart.jfif" alt="">
+            </div>
+                <h3>Emerald Hart</h3>
+                <p>-The fisrt human president <br>"I am proud of this school becoming my Alma Mater. To the new students of Maclea Academy, do your best, never feel belittled by those among you! Also, don't be scared of Professor Vio, when roaming in the middle of the night. The fun always starts with tricking our dear Professor Vio."</p>
+            </div>
+            <div class="course-col">
+                <h3>Kalix Vladmir</h3>
+                <p>-Sports King <br>
+                "Never trust Vampires, trust me. No Photo because Vampires don't have a reflection. Cant believe mortals don't know that."</p>
+            </div>
+            <div class="course-col">
+                <div class="testimonial-col">
+                    <img src="images/Charlotte Evermore.jfif" alt="">
+                </div>
+                <h3>Charlotte Evermore</h3>
+                <p>-Maclea's Valedictorian <br>
+                "Hello dear student! To those who feel pressured by the school's system, don't worry! Its all gonna be worth it in the end!</p>
+            </div>
+        </div>
+
+    </section> 
+
+
+ 
+
+    <!-- testimonials -->
+
+    <section class="testimonials">
+        <h1>Summary from our Professors</h1>
+        <p>Here are some letters from our Dear Principal and the Head Professor, Zeus.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/Principal Macey.jpg" alt="Principal Macey">
+                <div>
+                    <p>Greetings dear pupil, I greet you in behalf of the Academy. This is a safe place for all, so don't fret on telling me about new rumors, ghosts, and of course bullying. I hope you have a wonderful stay in Maclea Academy.</p>
+                    <h3>-Principal Macey Antonette</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/Professor Zeus.jpg" alt="Professor Zeus">
+                <div>
+                    <p>Arf Arf! I am Professor Zeus! Although some students call me Professor Neut Neut, they find it funny that a dog teaches. Well it is ok as long as they have fear for me. Good luck in your stay here at the Academy! And I might be your teacher on the first day!</p>
+                    <h3>-Professor Zeus</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Call to Action-->
+
+    <section class="cta">
+        <h1>Enroll now! In Maclea Academy. Anywhere Anytime.</h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>Note from our Editor</h4>
+        <p>Ad astra abysossque! Ti's I your fellow Editor! One must stay anonymous for though sake of thy school. Enjoy'est though stay in though school, thy friend.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    </section>
+
+        <!--JavaScript for Toggle Menu-->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

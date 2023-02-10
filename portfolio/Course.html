@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with device width, initial-sacle=1.0">
+        <title>Campus</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html" class="logo">Maclea <span>Academy</span></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-window-close onclick="hideMenu()""></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">HISTORY</a></li>
+                        <li><a href="Course.html">CAMPUS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-times" onclick="showMenu()"></i>
+            </nav>
+            <h1>A Campus Tour</h1>
+        </section>
+
+        <!-- Uniforms -->
+
+        <section class="campus">
+            <h1>Our School Uniforms</h1>
+            <p>Every Academy needs a uniform, so here are the Uniforms of Maclea Academy</p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/Boy.jfif" alt="" style="height: 100%; width: 100%;">
+                    <div class="layer">
+                        <h3>School Uniform For Boys</h3>
+                    </div>
+                </div>
+                <div>
+                    <p>This is the Design of our school uniforms <br> Credits to:
+                    <br> -Charmaine Iris (Human)
+                    <br> -Blake Colton (Half Wolf Half Vampire) 
+                    </p>
+                </div>
+                <div class="campus-col">
+                    <img src="images/girl.jfif" alt="">
+                    <div class="layer">
+                        <h3>School Uniform For Girls</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+     <!--campus-->
+
+     <section class="campus">
+        <h1>Outside the Campus</h1>
+        <p>How the Academy looks like from the Exterior.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/Garden.jfif" alt="A picture of our Campus Garden">
+                <div class="layer">
+                    <h3>Garden</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/Gate.jfif" alt="A picture of our Gate">
+                <div class="layer">
+                    <h3>Gate</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/Exterior.jfif" alt="A picture of our campus">
+                <div class="layer">
+                    <h3>Exterior</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+       <!--Facilities-->
+
+       <section class="facilities">
+        <h1>Inside the campus</h1>
+        <p>THe interior of our Academy</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/Library.jfif" alt="Our School Library">
+                <h3>Campus Library</h3>
+                <p>This is where the Library is, its kept close by 9:00pm - 5:00am. We have heard a lot of complaints from Madam Pepper after seeing students in the library late nights doing... Their business</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Dining Area.jfif" alt="Our School Library">
+                <h3>Dining Area</h3>
+                <p>Of course, every Academy needs a Dining Area, The students come in at the right time to eat, no one is allowed to be late, or no food for you!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Study Hall.jfif" alt="Our School Library">
+                <h3>Study Hall</h3>
+                <p>This is where the students study. Everyone here is quiet and no distractions allowed. Although, some students say they sometimes hear whispers in the middle of the night.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>Note from our Editor</h4>
+        <p>Ad astra abysossque! Ti's I your fellow Editor! One must stay anonymous for though sake of thy school. Enjoy'est your stay in though school, thy friend.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    </section>
+
+        <!--JavaScript for Toggle Menu-->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
